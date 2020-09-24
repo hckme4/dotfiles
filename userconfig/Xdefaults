@@ -10,6 +10,11 @@ rofi.font : Noto Sans 14
 rofi.hide-scrollbar : true
 
 ! === URXVT
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+URxvt.keysym.Control-Meta-c: builtin-string:
+URxvt.keysym.Control-Meta-v: builtin-string:
+URxvt.iso14755: False
 URxvt*geometry : 80x30
 "URxvt.font : 9x15
 !special
